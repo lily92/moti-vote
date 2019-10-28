@@ -5,7 +5,7 @@ $color_0:#010101;
   @return $px / $baseFontSize * 1rem;
 }
 html{ font-size: rem(26); font-family: "Microsoft Yahei", Tahoma;}
-body{ width: 100%; overflow-x: hidden; font-size: px2rem(22);  color: #333; padding-bottom: constant(safe-area-inset-bottom); 
+body{ width: 100%; overflow-x: hidden; font-size: 13px;  color: #333; padding-bottom: constant(safe-area-inset-bottom); 
   padding-bottom: env(safe-area-inset-bottom); line-height: 1.5; background: $color_0;}
 body,dd,dl,dt,form,h1,h2,h3,h4,h5,li,ol,p,ul,input{margin:0;padding:0;}
 li,ol,ul{list-style:none;}
@@ -25,10 +25,10 @@ a{color:#333;text-decoration:none;cursor:pointer;}
 .color9{ color: #999;}
 .colororg{ color: #da9e5a;}
 *{ box-sizing: border-box;}
-.fon18{ font-size: px2rem(18);}
-.fon20{ font-size: px2rem(20);}
-.fon16{ font-size: px2rem(16);}
-.fon26{ font-size: px2rem(26);}
+.fon18{ font-size: 13px;}
+.fon20{ font-size:14px;}
+.fon16{ font-size: 12px}
+.fon26{ font-size:16px}
 .colorf{ color: #fff;}
 .nowarp {
   white-space: nowrap;
@@ -80,7 +80,7 @@ a{color:#333;text-decoration:none;cursor:pointer;}
 .touxiang img{border-radius: 50%;}
 .persion-con{ width: px2rem(290); padding:  0 px2rem(10);}
 .person-center{ align-items: center; justify-content: space-between; margin-bottom: px2rem(20);}
-.p-num{ width: px2rem(200); height: px2rem(58); line-height: px2rem(58); text-align: center; color: #fff; background: url(../images/piaoshu.png) no-repeat center; background-size: contain;}
+.p-num{ width: px2rem(200); height: px2rem(58); line-height: px2rem(58); text-align: center; color: #fff; background: url(../images/piaoshu.png) no-repeat center; background-size: contain; font-size: 13px}
 .persion-list{ padding: px2rem(40); border-radius: px2rem(10); background: #fff;}
 .person-tit{ font-size: px2rem(32); position: relative; padding-left: px2rem(25);}
 .person-tit::before{ display: block;content: ''; width: 3px; height: px2rem(36); background: #da9e5a; left: 0; top: 50%; transform: translateY(-50%); position: absolute; }
@@ -131,7 +131,7 @@ footer{
   footer{
     background: #fff; height: px2rem(100); position: fixed;  bottom: 0; left: 0; width: 100%;  padding: px2rem(15) 0; box-sizing: border-box;  z-index: 102;
     li{ width: 20%; text-align: center}
-    li a{ color: #cbcbcb; display: block; font-size: px2rem(20)}
+    li a{ color: #cbcbcb; display: block; font-size: 13px}
     .picon{ height: px2rem(34); display: flex; align-items: center; justify-content: center; margin-bottom: px2rem(5)}
     li a.cur{ color: #da9e5a;}
     .icon{ background-size: contain !important;}
@@ -153,7 +153,7 @@ footer{
 
 
 @media (max-width:414px){
-  body{ font-size: 12px;}
+  
 
 }
 
