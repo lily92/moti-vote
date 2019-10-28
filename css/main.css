@@ -39,13 +39,13 @@ a { color: #333; text-decoration: none; cursor: pointer; }
 
 * { box-sizing: border-box; }
 
-.fon18 { font-size: 13px; }
+.fon18 { font-size: 0.24rem; }
 
-.fon20 { font-size: 14px; }
+.fon20 { font-size: 0.26667rem; }
 
-.fon16 { font-size: 12px; }
+.fon16 { font-size: 0.21333rem; }
 
-.fon26 { font-size: 16px; }
+.fon26 { font-size: 0.34667rem; }
 
 .colorf { color: #fff; }
 
@@ -201,3 +201,8 @@ footer li a.cur .icon3 { background: url(../images/icon-33.png) no-repeat center
 footer li a.cur .icon4 { background: url(../images/icon-44.png) no-repeat center; }
 
 footer li a.cur .icon5 { background: url(../images/icon-55.png) no-repeat center; }
+
+@media (max-width: 414px) { .fon18 { font-size: 13px; }
+  .fon20 { font-size: 13px; }
+  .fon16 { font-size: 12px; }
+  .fon26 { font-size: 14px; } }

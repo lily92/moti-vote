@@ -25,10 +25,10 @@ a{color:#333;text-decoration:none;cursor:pointer;}
 .color9{ color: #999;}
 .colororg{ color: #da9e5a;}
 *{ box-sizing: border-box;}
-.fon18{ font-size: 13px;}
-.fon20{ font-size:14px;}
-.fon16{ font-size: 12px}
-.fon26{ font-size:16px}
+.fon18{ font-size: px2rem(18)}
+.fon20{ font-size:px2rem(20)}
+.fon16{ font-size: px2rem(16)}
+.fon26{ font-size:px2rem(26)}
 .colorf{ color: #fff;}
 .nowarp {
   white-space: nowrap;
@@ -153,7 +153,10 @@ footer{
 
 
 @media (max-width:414px){
-  
+  .fon18{ font-size: 13px}
+.fon20{ font-size:13px}
+.fon16{ font-size:12px}
+.fon26{ font-size:14px}
 
 }
 
